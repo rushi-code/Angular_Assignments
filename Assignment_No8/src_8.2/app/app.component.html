@@ -1,0 +1,5 @@
+<div style="text-align: center;">
+<app-child [Msg]="SendChild" (Myevent)="FromChild=$event" ></app-child>
+
+<h1 style="color: crimson;">{{FromChild}}</h1>
+</div>
